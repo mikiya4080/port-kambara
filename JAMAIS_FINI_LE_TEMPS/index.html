@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="24時間365日営業しているレストラン。そこには終わらない時間があり、くつろぎのひとときを。">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<title>JAMAIS FINI LE TEMPS | 24時間365日 営業レストラン</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/pure-drawer.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+	<script type="text/javascript" src="js/sample.js"></script>
+	<script type="text/javascript">
+	     $(document).ready(function(){
+	        $('.slid-contents').bxSlider({
+	            auto: true,
+                pause: 5000,
+	            controls: false,
+	            pager: false,
+	            responsive: true,
+            });	        
+	    });
+		Pace.on('done', function(){
+            $('#wrap').fadeIn();
+        });
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<article>
+			<div id="slid">
+				<ul class="slid-contents">
+					<li><img src="img/pc_main-top01.png" class="main-top" alt="スライド画像01"></li>
+					<li><img src="img/pc_main-top02.png" class="main-top" alt="スライド画像02"></li>
+				</ul>
+				<img src="img/main-title.gif" class="main-title" alt="メインタイトル画像">
+			</div>
+		</article>
+		<header>
+			<div id="header">
+				<div class="global_header_logo">
+					<img src="img/logo-img.gif" alt="ロゴマーク">
+					<h1>JAMAIS FINI <br>LE TEMPS</h1>
+				</div>	
+				<div class="global_header_contact">
+					<a href="contact/contact.html">
+						<h2>問い合わせ</h2>
+					</a>
+				</div>			
+			</div>							
+		</header>
+		<main>
+			<div id="main">
+				<section>
+					<div id="intro">
+						<div class="intro-inner">
+							<img src="img/menu-img_off.png" class="intro-img-left" alt="メニュー画像">
+						</div>
+						<div  class="intro-inner">
+							<img src="img/access-img_off.png" class="intro-img-right" alt="アクセス画像">
+						</div>
+					</div>
+				</section>
+				<aside>
+					<div id="about-restaurant">
+						<img src="img/pc_concept-img.png" class="about-restaurant-left" alt="コンセプト画像">
+						<div class="about-restaurant-right">
+							<div class="wi-fi-info">
+								<img src="img/Wi-Fi.png" alt="wi-fi画像">
+								<h2>フリーWi-Fiが備わっています。<br>どうぞご自由にご利用ください。</h2>
+							</div>
+							<div class="sns-info">
+								<h3>FOLLOW US</h3>
+								<div class="sns-inner">
+									<a href="#">
+										<img src="img/insta.gif" alt="Instgramロゴ">
+										<p>Instgram</p>
+									</a>
+								</div>
+								<div class="sns-inner">
+									<a href="#">
+										<img src="img/twitter.gif" alt="Twitterロゴ">
+										<p>Twitter</p>
+									</a>
+								</div>
+								<div class="sns-inner">
+									<a href="#">
+										<img src="img/faceboock.gif" alt="Faceboockロゴ">
+										<p>Facebook</p>
+									</a>
+								</div>
+								<div class="sns-inner">
+									<a href="#">
+										<img src="img/line.gif" alt="Lineロゴ">
+										<p>Line</p>
+									</a>
+								</div>		
+							</div>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</main>
+		<footer>
+			<div id="footer">
+				<p>Copyright ©2019 KANBARA MIKIYA All Rights Reserved.</p>
+			</div>
+		</footer>
+
+		<script type="text/javascript">
+			$(window).on('load resize', function(){
+			  var w = $(window).width();
+			  var x = 959; 
+			 
+			  if (w <= x) {
+			    var before = 'pc_',
+			        after = 'sp_';
+			    replaceImg();
+
+			  } else {
+			    var before = 'sp_',
+			        after = 'pc_';
+			    replaceImg();
+			  }
+			 
+			  function replaceImg(){
+			    $('img[src*=pc_],img[src*=sp_]').each(function(){
+			      var img = $(this).attr('src').replace(before, after);
+			      if( $(this).attr('src').match(before) ) {
+			        $(this).attr('src', img);
+			      }
+			    });
+			  }
+			})
+		</script>
+	</div>
+</body>
+</html>

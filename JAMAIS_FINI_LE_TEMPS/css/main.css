@@ -1,0 +1,539 @@
+#wrap {
+	width: 100%;
+	overflow: hidden;
+}
+#slid {
+	position: relative;
+	width: 100%;
+	height: 900px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+#slid .slid-contents {
+	position: relative;
+	height: 900px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+#slid .slid-contents .main-top {
+	width: 100%;
+	height: 900px;
+	margin: 0px 0px;
+}
+.bx-wrapper {
+	height: 900px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	border: 0px;
+}
+#slid .main-title {
+	position: absolute;
+	width: 1280px;
+	top: 140px;
+	left: 42px;
+}
+#header {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+#header .global_header_logo {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-left: 10px;
+}
+#header .global_header_logo img {
+	float: left;
+	width: 50px;
+	height: 49px;
+	margin: 0px 0px 0px 4px;
+}
+#header .global_header_logo h1 {
+	position: absolute;
+	float: left;
+	width: 140px;
+	margin: 4px 0px;
+	color: #fff;
+	font-size: 17px;
+	top: 50%;
+	left: 53px;
+	transform: translateY(-50%);
+	line-height: 1.1em;
+}
+#header .global_header_contact {
+	position: relative;
+	float: right;
+	width: 106px;
+	height: 46px;
+}
+#header .global_header_contact a{
+	display: inline-block;
+}
+#header .global_header_contact h2 {
+	position: absolute;
+	margin: 0px 0px;
+	color: #fff;
+	font-size: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#main {
+	width: 100%;
+}
+#main img {
+	margin: 0px 0px;
+}
+#intro {
+	width: 100%;
+	overflow: hidden;
+}
+#intro .intro-inner {
+	float: left;
+	width: 50%;
+	background: #fff; 
+	overflow: hidden;
+}
+#intro .intro-inner .intro-img-left {
+	display: block;
+	width: 100%;
+	transition-duration: 0.3s;
+}
+#intro .intro-inner .intro-img-left:hover {
+	opacity: 0.6;
+	transform: scale(1.1);
+	transition-duration: 0.3s;
+}
+#intro .intro-inner .intro-img-right {
+	display: block;
+	width: 100%;
+	transition-duration: 0.3s;
+}
+#intro .intro-inner .intro-img-right:hover {
+	opacity: 0.6;
+	transform: scale(1.1);
+	transition-duration: 0.3s;
+}
+#about-restaurant {
+	width: 100%;
+	overflow: hidden;
+}
+#about-restaurant .about-restaurant-left {
+	width: 74%;
+	display: block;
+	float: left; 
+}
+#about-restaurant .about-restaurant-right {
+	width: 26%;	
+	height: 771px;
+	float: left;
+	overflow: hidden;
+}
+#about-restaurant .about-restaurant-right .wi-fi-info {
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	overflow: hidden;
+}
+#about-restaurant .about-restaurant-right .wi-fi-info img {
+	display: block;
+	width: 80px;
+	margin: 40px auto 20px;
+}
+#about-restaurant .about-restaurant-right .wi-fi-info h2 {
+	color: #000;
+	font-size: 20px;
+}
+#about-restaurant .about-restaurant-right .sns-info {
+	width: 100%;
+	height: 70%;
+	margin: 30px auto 0px;
+	padding-top: 60px;	
+	background-color: #efecef;
+	color: #fff;
+}
+#about-restaurant .about-restaurant-right .sns-info h3 {
+	display: block;
+	margin: 0px 0px;
+	color: #275a3c;
+	font-size: 20px;
+	text-align: center;
+}
+#about-restaurant .about-restaurant-right .sns-info .sns-inner {
+	position: relative;
+	width: 260px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+#about-restaurant .about-restaurant-right .sns-info .sns-inner img {
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin: 0px 0px;
+}
+#about-restaurant .about-restaurant-right .sns-info .sns-inner p {
+	display: block;
+	position: absolute;
+	float: left;
+	width: 180px;
+	margin: 0px 0px;
+	color: #275a3c;
+	font-size: 41px;
+	font-family: 'Corbel',sans-serif;
+	top: 50%;
+	left: 90px;
+	transform: translateY(-50%);
+}
+#about-restaurant .about-restaurant-right .sns-info .sns-inner p:hover {
+	color: #dc143c
+}
+#footer p {
+	text-align: center;
+}
+@media screen and (max-width:480px){
+	#slid {
+		position: relative;
+		width: 100%;
+		height: 667px;
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+	#slid .slid-contents {
+		width: 100%;
+		height: 667px;
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+	#slid .slid-contents .main-top {
+		width: 100%;
+	 	height: 667px;
+	 	margin: 0px 0px;
+	}
+	.bx-wrapper {
+		height: 667px;
+		border: 0px;
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+
+	#slid .main-title {
+		position: absolute;
+		width: 400px;
+		top: 227px;
+		left:5px;
+	}
+	#header {
+		position: absolute;
+		width: 100%;
+		height: 36px;
+		top: 7px;
+		left: 0px;
+	}
+	#header .global_header_logo {
+		position: relative;
+		width: 126px;
+		height: 36px;
+		margin-left: 6px;
+		overflow: hidden;
+	}
+	#header .global_header_logo img {
+		float: left;
+		width: 38px;
+		height: 34px;
+		margin:2px 0px 0px 0px;
+	}
+	#header .global_header_logo h1 {
+		position: absolute;
+		float: left;
+		color: #fff;
+		font-size: 12px;
+		top: 50%;
+		left: 36px;
+		line-height: 1.1em;
+		transform: translateY(-50%);
+	}
+	#header .global_header_contact {
+		position: relative;
+		float: right;
+		width: 69px;
+		height: 36px;
+	}
+	#header .global_header_contact a {
+		display: inline-block;
+	}
+	#header .global_header_contact h2 {
+		position: absolute;
+		margin: 0px 0px;
+		color: #fff;
+		font-size: 11px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	#intro {
+		width: 100%;
+		overflow: hidden;
+	}
+	#intro .intro-inner {
+		width: 100%;
+		height: 250px;
+	}
+	#intro .intro-inner .intro-img-left {
+		float: none;
+		width: 100%;
+	}
+	#intro .intro-inner .intro-img-right {
+		float: none;
+		width: 100%;
+	}
+	#about-restaurant {
+		width: 100%;
+	}
+	#about-restaurant .about-restaurant-left {
+		display: block;
+		float: none; 
+		width: 100%;
+	}
+	#about-restaurant .about-restaurant-right {
+		float: none;
+		width: 100%;	
+		height: 628px;
+		overflow: hidden;
+	}
+	#about-restaurant .about-restaurant-right .wi-fi-info {
+		width: 100%;
+		height: 166px;
+		text-align: center;
+	}
+	#about-restaurant .about-restaurant-right .wi-fi-info img {
+		display: block;
+		width: 48px;
+		margin: 30px auto 10px;
+	}
+	#about-restaurant .about-restaurant-right .wi-fi-info h2 {
+		color: #000;
+		font-size: 15px;
+	}
+	#about-restaurant .about-restaurant-right .sns-info {
+		width: 100%;
+		height: 460px;
+		margin: 0px 0px;
+		padding-top: 60px;
+		background-color: #eee;
+		color: #fff;
+	}
+	#about-restaurant .about-restaurant-right .sns-info h3 {
+		display: block;
+		margin: 0px 0px;
+		color: #275a3c;
+		font-size: 20px;
+		text-align: center;
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner {
+		position: relative;
+		width: 260px;
+		margin: 10px auto;
+		overflow: hidden;
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner img {
+		float: left;
+		width: 80px;
+		height: 80px;
+		margin: 0px 0px;
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner p {
+		display: block;
+		position: absolute;
+		float: left;
+		width: 190px;
+		margin: 0px 0px;
+		color: #275a3c;
+		font-size: 41px;
+		font-family: 'Corbel',sans-serif;
+		top: 50%;
+		left: 76px;
+		transform: translateY(-50%);
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner p:hover {
+		color: #dc143c
+	}
+	#footer p {
+		font-size: 10px;
+		text-align: center;
+	}
+}
+@media screen and (min-width:600px) and (max-width:959px) {
+#slid {
+		position: relative;
+		width: 100%;
+		height: 1024px;
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+	#slid .slid-contents {
+		width: 100%;
+		height: 1024px;
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+	#slid .slid-contents .main-top {
+		width: 100%;
+	 	height: 1024px;
+	 	margin: 0px 0px;
+	}
+	.bx-wrapper {
+		height: 1024px;
+		border: 0px;
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+
+	#slid .main-title {
+		position: absolute;
+		width: 750px;
+		top: 294px;
+		left:5px;
+	}
+	#header {
+		position: absolute;
+		width: 100%;
+		height: 49px;
+		top: 7px;
+		left: 0px;
+	}
+	#header .global_header_logo {
+		position: relative;
+		width: 166px;
+		height: 49px;
+		margin-left: 6px;
+		overflow: hidden;
+	}
+	#header .global_header_logo img {
+		float: left;
+		width: 53px;
+		height: 49px;
+		margin:2px 0px 0px 0px;
+	}
+	#header .global_header_logo h1 {
+		position: absolute;
+		float: left;
+		color: #fff;
+		font-size: 18px;
+		top: 50%;
+		left: 55px;
+		line-height: 1.1em;
+		transform: translateY(-50%);
+	}
+	#header .global_header_contact {
+		position: relative;
+		float: right;
+		width: 94px;
+		height: 36px;
+	}
+	#header .global_header_contact a {
+		display: inline-block;
+	}
+	#header .global_header_contact h2 {
+		position: absolute;
+		margin: 0px 0px;
+		color: #fff;
+		font-size: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	#intro {
+		width: 100%;
+		overflow: hidden;
+	}
+	#intro .intro-inner {
+		width: 100%;
+		height: 510px;
+	}
+	#intro .intro-inner .intro-img-left {
+		float: none;
+		width: 100%;
+	}
+	#intro .intro-inner .intro-img-right {
+		float: none;
+		width: 100%;
+	}
+	#about-restaurant {
+		width: 100%;
+	}
+	#about-restaurant .about-restaurant-left {
+		display: block;
+		float: none; 
+		width: 100%;
+	}
+	#about-restaurant .about-restaurant-right {
+		float: none;
+		width: 100%;	
+		height: 498px;
+		overflow: hidden;
+	}
+	#about-restaurant .about-restaurant-right .wi-fi-info {
+		width: 100%;
+		height: 194px;
+		text-align: center;
+	}
+	#about-restaurant .about-restaurant-right .wi-fi-info img {
+		display: block;
+		width: 63px;
+		margin: 30px auto 14px;
+	}
+	#about-restaurant .about-restaurant-right .wi-fi-info h2 {
+		color: #000;
+		font-size: 20px;
+	}
+	#about-restaurant .about-restaurant-right .sns-info {
+		width: 100%;
+		height: 298px;
+		margin: 0px 0px;
+		padding-top: 60px;
+		background-color: #eee;
+		color: #fff;
+		overflow: hidden;
+	}
+	#about-restaurant .about-restaurant-right .sns-info h3 {
+		display: block;
+		margin: 0px 0px;
+		color: #275a3c;
+		font-size: 20px;
+		text-align: center;
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner {
+		position: relative;
+		float: left;
+		width: 260px;
+		margin: 10px 30px 0px 82px;
+		overflow: hidden;
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner img {
+		float: left;
+		width: 80px;
+		height: 80px;
+		margin: 0px 0px;
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner p {
+		display: block;
+		position: absolute;
+		float: left;
+		width: 190px;
+		margin: 0px 0px;
+		color: #275a3c;
+		font-size: 41px;
+		font-family: 'Corbel',sans-serif;
+		top: 50%;
+		left: 76px;
+		transform: translateY(-50%);
+	}
+	#about-restaurant .about-restaurant-right .sns-info .sns-inner p:hover {
+		color: #dc143c
+	}
+	#footer p {
+		font-size: 10px;
+		text-align: center;
+	}
+}
