@@ -1,0 +1,679 @@
+#wrap {
+	overflow: hidden;
+}
+.pace-running #wrap {
+    display: none;
+}
+#main {
+	width: 100%;
+}
+.topBlock {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.list {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.list .rogo {
+	display: block;
+	position: absolute;
+	height: 39px;
+	overflow: hidden;
+	top: 20px;
+  	left: 30px;
+}
+.main-ikon {
+	float: left;
+	width: 28px;
+}
+.main-title {
+	display: inline-block;
+	line-height: 1em;
+	float: left;
+	margin-left: 2px;
+	color: #000;
+	font-size: 15px;
+}
+.list .title01 {
+	display: inline-block;
+	line-height: 1.1em;
+	position: absolute;
+	letter-spacing: 0.039em;
+	margin: 0px 0px;
+	font-size: 75px;
+	top: 236px;
+  	left: 100px;
+}
+.list .title02 {
+	display: inline-block;
+	line-height: 1.1em;
+	position: absolute;
+	letter-spacing: 0.033em;
+	margin: 0px 0px;
+	font-size: 75px;
+	top: 326px;
+  	left: 100px;
+}
+
+.list h2 {
+	display: inline-block;
+	letter-spacing: 0.1em;
+	position: absolute;
+	font-family: "arial";
+	font-size: 18px;
+	top: 438px;
+  	left: 100px;
+}
+.list .title-Span {
+	color: #fff;
+}
+.list .right_img {
+	float: right;
+	width: 58%;
+	height: 890px;
+}
+.pc { 
+	display: block !important; 
+}
+.sp { 
+	display: none !important; 
+}
+.list{
+	opacity: 0;
+	transition: .8s;
+	transform: translate(0,60px); 
+	-webkit-transform: translate(0,60px); 
+}
+.mv07{
+	opacity: 1;
+	transform: translate(0,0); 
+	-webkit-transform: translate(0,0);
+}
+
+.hamburger {
+	position: fixed;
+	top: 10px;
+	right: 20px;
+	z-index: 1;
+}
+.hamburger-icon{
+	display: inline-block;
+	position: relative;
+}
+.hamburger-icon,
+.hamburger-icon:before, .hamburger-icon:after{
+	width: 22px;
+	height: 2px;
+	background: #000;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-o-border-radius: 1px;
+	-ms-border-radius: 1px;
+	border-radius: 1px;
+	}
+.hamburger-icon:before, .hamburger-icon:after{
+	display: block;
+	position: absolute;
+	content: "";
+}
+.hamburger-icon:before{
+	margin-top: -6px;
+}
+.hamburger-icon:after{
+	margin-top: 6px;
+}
+#Concept-container {
+	width: 100%;
+	height: 590px;
+	margin-top: 200px;
+	overflow: hidden;
+}
+.anime {
+	position: relative;
+	float: left;
+	width: 60%;
+	height: 700px;
+	opacity: 0;
+  	transition: all ease .4s;
+  	transform: translateX(-100px);
+  	overflow: hidden;
+}
+.anime.is-active{
+  	opacity: 1;
+  	transform:none;
+}
+#Concept-container img{
+	float: left;
+	width: 77%;
+	height: 550px;
+}
+.Concept-img {
+	position: absolute;
+	width: 80%;
+	height: 550px;
+	top: 40px;
+	left: 40px;
+}
+.detailBlock {
+	position: relative;
+}
+.detail-inner {
+	position: absolute;
+	float: left;
+	width: 33%;
+	top: 40px;
+	right: 150px;
+}
+.detail-inner h2{
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+	text-align: center;
+}
+.detail-inner p{
+	font-size: 20px;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+	text-align: center;
+}
+.detail-inner .read-button {
+	display: block;
+	width: 35%;
+	margin: 100px auto 0px;
+	border-bottom: double 1px #000;
+	color: #000;
+	font-size: 20px;
+	font-family: 'Segoe Script','Zapfino',monospace;
+	text-decoration: none;
+	text-align: center;
+}
+.detail-inner .read-button:hover {
+	border-color: #c0c0c0;
+	color: #c0c0c0;
+}
+#Menu-container {
+	width: 100%;
+	height: 839px;
+	margin-top: 200px;
+}
+#Menu-container h2 {
+	display: block;
+	margin: 0px auto 30px;
+	font-size: 37px;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+	text-align: center;
+}
+#Menu-container p {
+	font-size: 20px;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+	text-align: center;
+}
+#Menu-container .Menu-container-inner {
+	width: 100%;
+}
+.anime-right {
+	position: relative;
+	width: 100%;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	opacity: 0;
+  	transition: all ease .4s;
+	transform: translateX(-100px);
+}
+.anime-right img {
+	position: absolute;
+	width: 36%;
+	top: 130px;
+	right: 302px;
+}
+.anime-left {
+	position: relative;
+	width: 100%;
+	opacity: 0;
+  	transition: all ease .4s;
+	transform: translateX(100px);
+}
+.anime-left img{
+	position: absolute;
+	width: 31%;
+	top: 90px;
+	left: 302px;
+}
+#Menu-container .read-button {
+	display: block;
+	width: 10%;
+	margin: 680px auto 0px;
+	color: #000;
+	border-bottom: double 1px #000;
+	font-size: 20px;
+	font-family: 'Segoe Script','Zapfino',monospace;
+	text-align: center;
+	text-decoration: none;
+}
+#Menu-container .read-button:hover {
+	color: #c0c0c0;
+	border-color: #c0c0c0;		
+}
+.anime-left.is-active{
+  	opacity: 1;
+  	transform:none;
+}
+.anime-right.is-active{
+  	opacity: 1;
+  	transform:none;
+}
+#Access-container {
+	width: 100%;
+	height: 650px;
+	margin-top: 250px; 
+	overflow: hidden;
+}
+#Access-container .Access-container-inner {
+	float: left;
+	width: 40%;
+	margin-top: 60px;
+}
+#Access-container .Access-container-inner h2 {
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+	text-align: center;
+}
+#Access-container .Access-container-inner p {
+	font-size: 20px;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+	text-align: center;
+}
+.Accessanime {
+	position: relative;
+	float: right;
+	width: 60%;
+	height: 500px;
+	opacity: 0;
+  	transition: all ease .4s;
+  	transform: translateX(100px);
+  	overflow: hidden;
+}
+.on-active{
+  	opacity: 1;
+  	transform:none;
+}
+#Access-container img{
+	float: right;
+	width: 80%;
+	height: 90%;
+}
+.Access-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 40px;
+	right: 40px;
+}
+#Access-container .Access-container-inner .read-button {
+	display: block;
+	width: 25%;
+	margin: 80px auto 0px;
+	color: #000;
+	border-bottom: double 1px #000;
+	font-family: 'Segoe Script','Zapfino',monospace;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+#Access-container .Access-container-inner .read-button:hover {
+	color: #c0c0c0;
+	border-color: #c0c0c0;
+}
+#footer {
+	width: 100%;
+	height: 400px;
+	background: #333;
+	overflow: hidden;
+}
+.footer-inner {
+	width: 100%;
+	overflow: hidden;
+}
+.footer-inner .footer-info {
+	float: left;
+	width: 35%;
+	height: 400px;
+	margin: 70px 0px 100px 300px;
+}
+.footer-inner .footer-info .head {
+	float: left;
+	width: 30%;
+	margin: 20px 0px 0px 0px;
+	color: #fff;
+	font-size: 12px;
+}
+.footer-inner .footer-info .body {
+	float: left;
+	width: 70%;
+	margin: 20px 0px 0px 0px;
+	color: #fff;
+	font-size: 12px;
+}
+.footer-inner .menu {
+	float: left;
+	list-style: none;
+	width: 73px;
+	margin: 90px 0px 0px 270px;
+}
+.footer-inner .menu li {
+	width: 73px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 13px;
+}
+.footer-inner .menu li a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer-inner .ikon {
+	display: block;
+	float: left;
+	width: 25px;
+	margin: 83px 0px 0px 200px;
+}
+.footer-inner .ikon img {
+	width: 25px;
+	margin-top: 10px;
+}
+@media screen and (max-width:480px){
+	html, body { height: 100%; }
+	#main {
+		width: 100%;
+		height: 100%;
+	}
+	.topBlock {
+		position: relative;
+		width: 100%;
+		height: 667px;
+	}
+	.list {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	.list .rogo {
+		display: block;
+		position: absolute;
+		height: 20px;
+		top: 10px;
+	  	left: 8px;
+	  	overflow: hidden;
+	}
+	.main-ikon {
+		float: left;
+		width: 19px;
+		height: 20px;
+	}
+	.main-title {
+		display: inline-block;
+		line-height: 1em;
+		float: left;
+		margin-left: 2px;
+		color: #000;
+		font-size: 11px;
+	}
+	.list .title01 {
+		display: inline-block;
+		position: absolute;
+		line-height: 1.1em;
+		margin: 0px 0px;
+		font-size: 48px;
+		letter-spacing: 0.03em;
+		top: 110px;
+  		left: 30px;
+	}
+	.list .title02 {
+		display: inline-block;
+		line-height: 1.1em;
+		position: absolute;
+		margin: 0px 0px;
+		font-size: 48px;
+		letter-spacing: 0.03em;
+		top: 287px;
+  		left: 30px;
+	}		
+	.list h2 {
+		display: inline-block;
+		letter-spacing: 0.1em;
+		position: absolute;
+		color: #fff;
+		font-size: 12px;
+		font-family: "arial";
+		top: 560px;
+	  	left: 30px;
+	}
+	.list .title-Span {
+		color: #fff;
+	}
+	.pc { 
+		display: none !important; 
+	}
+	.sp { 
+		display: block !important; 
+		width: 100%;
+		height: 100%;
+	}
+	.css-br::after {
+	  content: "\A" ;
+	  white-space: pre;
+	}
+	#Concept-container {
+		width: 100%;
+		height: 602px;
+		margin-top: 80px;
+	}
+	.anime {
+		float: none;
+		width: 100%;
+		height: 300px;
+		padding: 0px 0px;
+	}
+	#Concept-container img{
+		float: none;
+		width: 100%;
+		height: 300px;
+		margin-top: 14px;
+	}
+	.Concept-img {
+		display: block;
+		position: static;
+	}
+	.detailBlock {
+		width: 100%;
+		height: 300px;
+	}
+	.detail-inner {
+		position: static;
+		float: none;
+		width: 100%;
+		height: 300px;
+	}
+	.detail-inner h2{
+		margin-bottom: 30px;
+		font-size: 26px;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+		text-align: center;
+	}
+	.detail-inner p{
+		font-size: 12px;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+		text-align: center;
+	}
+	.detail-inner .read-button {
+		display: block;
+		width: 25%;
+		margin: 50px auto 0px;
+		color: #000;
+		border-bottom: double 0.5px #000;
+		font-size: 11px;
+		font-family: 'Segoe Script','Zapfino',monospace;
+		text-decoration: none;
+		text-align: center;
+	}
+	#Menu-container {
+		width: 100%;
+		height: 500px;
+		margin-top: 80px;
+	}
+	#Menu-container h2 {
+		margin-bottom: 30px;
+		font-size: 26px;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+		text-align: center;
+	}
+	#Menu-container p {
+		font-size: 12px;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+		text-align: center;
+	}
+	#Menu-container .Menu-container-inner {
+		width: 100%;
+	}
+	.anime-right {
+		position: relative;
+		width: 100%;
+		margin: 0px auto;
+		padding: 0px 0px;
+		opacity: 0;
+	}
+	.anime-right img {
+		position: absolute;
+		width: 100%;
+		height: 241px;
+		top: 129px;
+		right: 0px;
+	}
+	#Menu-container .read-button {
+		display: block;
+		width: 25%;
+		margin: 50px auto 0px;
+		border-bottom: double 0.5px #000;
+		color: #000;
+		font-size: 11px;
+		font-family: 'Segoe Script','Zapfino',monospace;
+		text-decoration: none;
+		text-align: center;
+	}
+	.anime-right.is-active{
+	  	opacity: 1;
+	  	transform:none;
+	}
+	#Access-container {
+		width: 100%;
+		height: 460px;
+		margin-top: 80px; 
+		overflow: hidden;
+	}
+	#Access-container .Access-container-inner {
+		float: none;
+		width: 100%;
+		margin-top: 0px;
+	}
+	#Access-container .Access-container-inner h2 {
+		margin-bottom: 30px;
+		font-size: 26px;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+		text-align: center;
+	}
+	#Access-container .Access-container-inner p {
+		font-size: 12px;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
+		text-align: center;
+	}
+	.Accessanime {
+		position: static;
+		float: none;
+		width: 100%;
+		height: 236px;
+		margin-top: 50px;
+		opacity: 1;
+	  	transform: none;
+	}
+	.on-active{
+	  	opacity: 1;
+	  	transform:none;
+	}
+	#Access-container img{
+		float: none;
+		width: 100%;
+	}
+	.Access-img {
+		position: static;
+		width: 100%;
+	}
+	#Access-container .Access-container-inner .read-button {
+		display: block;
+		width: 25%;
+		margin: 50px auto 0px;
+		border-bottom: double 0.5px #000;
+		color: #000;
+		font-size: 11px;
+		font-family: 'Segoe Script','Zapfino',monospace;
+		text-decoration: none;
+		text-align: center;
+	}
+	#footer {
+		width: 100%;
+		height: 300px;
+		background: #333;
+	}
+	.footer-inner {
+		width: 100%;
+	}
+	.footer-inner .footer-info {
+		width: 80%;
+		height: 216px;
+		margin: 7% 10% 8%;
+		overflow: hidden;
+	}
+	.footer-inner .footer-info .head {
+		float: left;
+		width: 40%;
+		margin: 8% 0px 0px 0px;
+		color: #fff;
+		font-size: 10px;
+	}
+	.footer-inner .footer-info .body {
+		float: left;
+		width: 60%;
+		margin: 8% 0px 0px 0px;
+		color: #fff;
+		font-size: 10px;
+	}
+	.footer-inner .menu {
+		float: none;
+		list-style: none;
+		width: 70%;
+		margin: 10% auto 8%;
+	}
+	.footer-inner .menu li {
+		width: 70px;
+		margin-bottom: 8%;
+		color: #fff;
+		font-size: 8px;
+	}
+	.footer-inner .menu li a {
+		text-decoration: none;
+		color: #fff;
+	}
+	.top-button {
+		display: block;
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+		text-decoration: none;
+	}
+	.top-button:hover {
+		color: #000;
+	}
+}
