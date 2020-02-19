@@ -50,7 +50,6 @@
   	transition: .3s ease-in-out;
 }
 #header #nav-drawer #nav-content {
-  	overflow: auto;
   	position: fixed;
   	top: 0;
   	left: 0;
@@ -62,6 +61,7 @@
   	transition: .3s ease-in-out;
   	-webkit-transform: translateX(-105%);
   	transform: translateX(-105%);
+  	overflow: auto;
 }
 #header #nav-drawer #nav-content p a{
 	display: inline-block;
