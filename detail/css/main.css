@@ -60,6 +60,14 @@
   	transform: translateX(-105%);
   	overflow: auto;
 }
+#header #nav-drawer #nav-content p a{
+	display: inline-block;
+	margin: 50px 0px 0px 15px;
+	color: #000;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
 #header #nav-drawer #nav-input:checked ~ #nav-close {
   	display: block;
   	opacity: .5;
@@ -206,6 +214,14 @@
 	  	transition: .3s ease-in-out;
 	  	-webkit-transform: translateX(-105%);
 	  	transform: translateX(-105%);
+	}
+	#header #nav-drawer #nav-content p a{
+		display: inline-block;
+		margin: 30px 0px 0px 8px;
+		color: #000;
+		font-size: 28px;
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
 	}
 	#header #nav-drawer #nav-input:checked ~ #nav-close {
 	 	display: block;
