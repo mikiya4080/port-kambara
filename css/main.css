@@ -320,12 +320,21 @@
 	  left: 0;
 	  z-index: 9999;/*最前面に*/
 	  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-	  max-width: 330px;/*最大幅（調整してください）*/
+	  max-width: 100px;/*最大幅（調整してください）*/
 	  height: 100%;
 	  background: #fff;/*背景色*/
 	  transition: .3s ease-in-out;/*滑らかに表示*/
 	  -webkit-transform: translateX(-105%);
 	  transform: translateX(-105%);/*左に隠しておく*/
+	}
+
+	#header #nav-drawer #nav-content p a{
+		display: inline-block;
+		margin: 30px 0px 0px 8px;
+		color: #000;
+		font-size: 28px;
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
 	}
 
 	/*チェックが入ったらもろもろ表示*/
@@ -432,12 +441,12 @@
 	#profile-contaner .contaner-right {
 		float: none;
 		width: 100%;
-		padding-top: 23px;
+		padding-top: 39px;
 	}
 	#profile-contaner .contaner-right h3 {
 		margin: 0px 0px 10px 0px;
 		color: #636363;
-		font-size: 17px;
+		font-size: 15px;
 		text-align: center;
 	}
 	#profile-contaner .contaner-right .name-eng {
@@ -496,7 +505,7 @@
 	#footer {
 		width: 100%;
 		height: 8px;
-		margin-top: 45px;
+		margin-top: 50px;
 	}
 	#footer p{
 		display: block;
