@@ -127,7 +127,7 @@
 	width: 65%;
 	margin: 15px auto 15px;
 	font-size: 15px;
-	font-family: YuGothic,'Yu Gothic',sans-serif;
+	font-family: YuGothic,'Yu Gothic','Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
 	text-align: left;
 	line-height: 1.5em;
 }
@@ -135,7 +135,7 @@
 	display: block;
 	width: 65%;
 	font-size: 15px;
-	font-family: YuGothic,'Yu Gothic',sans-serif;
+	font-family: YuGothic,'Yu Gothic','Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
 }
 .scrol_inner ul li a {
 	display: inline-block;
@@ -281,7 +281,7 @@
 		width: 90%;
 		margin: 15px auto 15px;
 		font-size: 12px;
-		font-family: YuGothic,'Yu Gothic',sans-serif;
+		font-family: YuGothic,'Yu Gothic','Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
 		text-align: left;
 		line-height: 1.5em;
 	}
@@ -289,7 +289,7 @@
 		display: block;
 		width: 90%;
 		font-size: 12px;
-		font-family: YuGothic,'Yu Gothic',sans-serif;
+		font-family: YuGothic,'Yu Gothic','Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
 	}
 	.scrol_inner ul li .page-detail .css-br::after {
 	  content: "\A" ;
