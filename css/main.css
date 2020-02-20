@@ -222,7 +222,7 @@
 }
 #skill-contaner ul li h3 {
 	position: absolute;
-	color: #7d7c7c;
+	color: #000;
   	top: 50%;
   	left: 50%;
   	-webkit-transform: translateX(-50%) translateY(-50%);
@@ -241,6 +241,7 @@
 	font-size: 13px;
 	text-align: center;
 }
+
 @media screen and (max-width:480px) {
 	#header {
 		width: 100%;
@@ -367,7 +368,7 @@
 		display: block;
 		width: 47%;
 		height: 145px;
-		margin-bottom: 16px;
+		margin-bottom: 18px;
 		overflow: hidden;
 	}
 	#works-contaner ul li p {
@@ -387,7 +388,7 @@
 	#works-contaner ul li h3 {
 		margin-top: 6px;
 		color: #7d7c7c;
-		font-size: 6px;
+		font-size: 8px;
 		text-align: left;
 	}
 	#profile-contaner {
@@ -464,7 +465,7 @@
 	}
 	#skill-contaner ul li h3 {
 		position: absolute;
-		color: #7d7c7c;
+		color: #000;
 		font-size: 13px;
 	  	top: 50%;
 	  	left: 50%;
