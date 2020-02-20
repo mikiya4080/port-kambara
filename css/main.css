@@ -180,6 +180,7 @@
 	color: #000;
   	top: 50%;
   	left: 50%;
+  	font-family: 'Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
   	-webkit-transform: translateX(-50%) translateY(-50%);
   	transform: translateX(-50%) translateY(-50%);
 }
@@ -423,6 +424,7 @@
 		font-size: 13px;
 	  	top: 50%;
 	  	left: 50%;
+	  	font-family: 'Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
 	  	-webkit-transform: translateX(-50%) translateY(-50%);
 	  	transform: translateX(-50%) translateY(-50%);
 	}
