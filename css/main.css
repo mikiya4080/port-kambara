@@ -85,7 +85,7 @@
 }
 #main .top-contaner {
 	position: relative;
-	width: 1100px;
+	width: 900px;
 	margin: 0px auto;
 	z-index: 1;
 }
@@ -95,6 +95,7 @@
 	top: 50%;
 	left: 50%;
 	margin: auto;
+	color: #fff;
 	font-size: 40px;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
@@ -106,7 +107,7 @@
 	width: 100%;
 }
 #works-contaner {
-	width: 1100px;
+	width: 900px;
 	height: 371px;
 	margin: 100px auto 0px;
 }
@@ -137,7 +138,7 @@
 #works-contaner ul li p img {
 	display: block;
 	width: 100%;
-	height: 240px;
+	height: 210px;
 	transition-delay: 0.3s;
 }
 #works-contaner ul li p img:hover {
@@ -150,45 +151,8 @@
 	font-size: 11px;
 	text-align: left;
 }
-#skill-contaner {
-	width: 1100px;
-	height: 414px;
-	margin: 100px auto 0px;
-}
-#skill-contaner  h2 {
-	margin: 0px 0px 60px;
-	font-size: 48px;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-}
-#skill-contaner ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	list-style: none;
-}
-#skill-contaner ul li {
-	position: relative;
-	width: 25%;
-	height: 80px;
-	margin-bottom: 30px;
-	text-align: center;
-	border: 1px solid #7d7c7c; 
-}
-#skill-contaner ul li h3 {
-	position: absolute;
-	color: #000;
-  	top: 50%;
-  	left: 50%;
-  	font-family: 'Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
-  	-webkit-transform: translateX(-50%) translateY(-50%);
-  	transform: translateX(-50%) translateY(-50%);
-}
-#skill-contaner ul li img {
-	width: 55%;
-}
 #profile-contaner {
-	width: 1100px;
+	width: 900px;
 	height: 334px;
 	margin: 100px auto 30px;
 }
@@ -231,6 +195,42 @@
 }
 #profile-contaner .contaner-right p span {
 	margin: 5px 0px 5px 0px;
+}
+#skill-contaner {
+	width: 900px;
+	height: 414px;
+	margin: 100px auto 0px;
+}
+#skill-contaner  h2 {
+	margin: 0px 0px 60px;
+	font-size: 48px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+#skill-contaner ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+}
+#skill-contaner ul li {
+	position: relative;
+	width: 25%;
+	height: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+	border: 1px solid #7d7c7c; 
+}
+#skill-contaner ul li h3 {
+	position: absolute;
+	color: #000;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translateX(-50%) translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
+}
+#skill-contaner ul li img {
+	width: 55%;
 }
 #footer {
 	width: 100%;
@@ -392,45 +392,6 @@
 		font-size: 8px;
 		text-align: left;
 	}
-	#skill-contaner {
-		width: 80%;
-		height: 366px;
-		margin: 40px auto 0px;
-	}
-	#skill-contaner  h2 {
-		margin: 0px 0px 26px;
-		font-size: 29px;
-		font-family: 'Lato', sans-serif;
-		text-align: center;
-	}
-	#skill-contaner ul {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		list-style: none;
-		height: 295px;
-	}
-	#skill-contaner ul li {
-		position: relative;
-		width: 25%;
-		height: 77px;
-		margin-bottom: 29px;
-		text-align: center;
-		border: 1px solid #7d7c7c; 
-	}
-	#skill-contaner ul li h3 {
-		position: absolute;
-		color: #000;
-		font-size: 13px;
-	  	top: 50%;
-	  	left: 50%;
-	  	font-family: 'Corbel','Microsoft Sans Serif','Helvetica',sans-serif;
-	  	-webkit-transform: translateX(-50%) translateY(-50%);
-	  	transform: translateX(-50%) translateY(-50%);
-	}
-	#skill-contaner ul li img {
-		width: 55%;
-	}
 	#profile-contaner {
 		width: 80%;
 		height: 327px;
@@ -476,6 +437,44 @@
 	}
 	#profile-contaner .contaner-right p span {
 		margin: 5px 0px 5px 0px;
+	}
+	#skill-contaner {
+		width: 80%;
+		height: 366px;
+		margin: 40px auto 0px;
+	}
+	#skill-contaner  h2 {
+		margin: 0px 0px 26px;
+		font-size: 29px;
+		font-family: 'Lato', sans-serif;
+		text-align: center;
+	}
+	#skill-contaner ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		list-style: none;
+		height: 295px;
+	}
+	#skill-contaner ul li {
+		position: relative;
+		width: 25%;
+		height: 77px;
+		margin-bottom: 29px;
+		text-align: center;
+		border: 1px solid #7d7c7c; 
+	}
+	#skill-contaner ul li h3 {
+		position: absolute;
+		color: #000;
+		font-size: 13px;
+	  	top: 50%;
+	  	left: 50%;
+	  	-webkit-transform: translateX(-50%) translateY(-50%);
+	  	transform: translateX(-50%) translateY(-50%);
+	}
+	#skill-contaner ul li img {
+		width: 55%;
 	}
 	#footer {
 		width: 100%;
