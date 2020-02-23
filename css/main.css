@@ -235,6 +235,7 @@
   	opacity: 1;
   	-webkit-transform: translateX(-50%) translateY(-50%);
   	transform: translateX(-50%) translateY(-50%);
+  	overflow: hidden;
 }
 #skill-contaner ul li:hover h3 {
 	opacity: 0;
