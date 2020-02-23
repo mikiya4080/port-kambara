@@ -225,6 +225,7 @@
 	border-radius: 40px;
 	border: 1px solid #7d7c7c; 
 	box-shadow: 7px 7px #eee;
+	overflow: hidden;
 }
 #skill-contaner ul li h3 {
 	position: absolute;
@@ -492,6 +493,7 @@
 		border-radius: 20px;
 		border: 1px solid #7d7c7c; 
 		box-shadow: 6px 6px #eee;
+		overflow: hidden;
 	}
 	#skill-contaner ul li h3 {
 		position: absolute;
