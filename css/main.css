@@ -255,7 +255,7 @@
 	#header #nav-drawer {
 	  	position: fixed;
 	  	top: 23px;
-	  	right: 23px; 
+	  	right: 18px; 
 	}
 	#header #nav-drawer .nav-unshown {
 	  	display:none;
