@@ -179,18 +179,18 @@
 	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 	text-align: center;
 }
-.detail-inner .read-button {
+.detail-inner .more-button {
 	display: block;
 	width: 35%;
 	margin: 100px auto 0px;
-	border-bottom: double 1px #000;
+	border: solid 1px #444;
 	color: #000;
 	font-size: 20px;
-	font-family: 'Segoe Script','Zapfino',monospace;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 	text-decoration: none;
 	text-align: center;
 }
-.detail-inner .read-button:hover {
+.detail-inner .more-button:hover {
 	border-color: #c0c0c0;
 	color: #c0c0c0;
 }
@@ -242,18 +242,18 @@
 	top: 90px;
 	left: 302px;
 }
-#Menu-container .read-button {
+#Menu-container .more-button {
 	display: block;
 	width: 10%;
 	margin: 680px auto 0px;
 	color: #000;
-	border-bottom: double 1px #000;
+	border: solid 1px #444;
 	font-size: 20px;
-	font-family: 'Segoe Script','Zapfino',monospace;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 	text-align: center;
 	text-decoration: none;
 }
-#Menu-container .read-button:hover {
+#Menu-container .more-button:hover {
 	color: #c0c0c0;
 	border-color: #c0c0c0;		
 }
@@ -313,13 +313,13 @@
 	top: 40px;
 	right: 40px;
 }
-#Access-container .Access-container-inner .read-button {
+#Access-container .Access-container-inner .more-button {
 	display: block;
 	width: 25%;
 	margin: 80px auto 0px;
 	color: #000;
-	border-bottom: double 1px #000;
-	font-family: 'Segoe Script','Zapfino',monospace;
+	border: solid 1px #444;
+	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
@@ -509,14 +509,14 @@
 		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 		text-align: center;
 	}
-	.detail-inner .read-button {
+	.detail-inner .more-button {
 		display: block;
 		width: 25%;
-		margin: 50px auto 0px;
+		margin: 20px auto 0px;
 		color: #000;
-		border-bottom: double 0.5px #000;
+		border: solid 1px #444;
 		font-size: 11px;
-		font-family: 'Segoe Script','Zapfino',monospace;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 		text-decoration: none;
 		text-align: center;
 	}
@@ -553,14 +553,14 @@
 		top: 129px;
 		right: 0px;
 	}
-	#Menu-container .read-button {
+	#Menu-container .more-button {
 		display: block;
 		width: 25%;
-		margin: 50px auto 0px;
-		border-bottom: double 0.5px #000;
+		margin: 20px auto 0px;
+		border: solid 1px #444;
 		color: #000;
 		font-size: 11px;
-		font-family: 'Segoe Script','Zapfino',monospace;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 		text-decoration: none;
 		text-align: center;
 	}
@@ -611,14 +611,14 @@
 		position: static;
 		width: 100%;
 	}
-	#Access-container .Access-container-inner .read-button {
+	#Access-container .Access-container-inner .more-button {
 		display: block;
 		width: 25%;
-		margin: 50px auto 0px;
-		border-bottom: double 0.5px #000;
+		margin: 20px auto 0px;
+		border: solid 1px #444;
 		color: #000;
 		font-size: 11px;
-		font-family: 'Segoe Script','Zapfino',monospace;
+		font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 		text-decoration: none;
 		text-align: center;
 	}
