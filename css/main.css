@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 body {
 	background-color: #deb887;
@@ -59,8 +59,7 @@ body {
   	top: 0;
   	left: 0;
   	z-index: 9999;
-  	width: 90%;
-  	max-width: 300px;
+  	width: 13%;
   	height: 100%;
   	background: #fff;
   	transition: .3s ease-in-out;
@@ -72,8 +71,8 @@ body {
 	display: inline-block;
 	margin: 50px 0px 0px 18px;
 	color: #000;
-	font-size: 28px;
-	font-family: 'Montserrat', ;
+	font-size: 31px;
+	font-family: 'Spartan', ;
 	text-decoration: none;
 }
 #header #nav-drawer #nav-input:checked ~ #nav-close {
