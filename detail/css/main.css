@@ -58,8 +58,7 @@ body {
   	top: 0;
   	left: 0;
   	z-index: 9999;
-  	width: 90%;
-  	max-width: 300px;
+  	width: 13%;
   	height: 100%;
   	background: #fff;
   	transition: .3s ease-in-out;
@@ -71,7 +70,7 @@ body {
 	display: inline-block;
 	margin: 50px 0px 0px 18px;
 	color: #000;
-	font-size: 28px;
+	font-size: 35px;
 	font-family: 'Montserrat', ;
 	text-decoration: none;
 }
@@ -90,7 +89,7 @@ body {
 	overflow: hidden;
 }
 .scrol {
-	width: 1100px;
+	width: 80%;
 	margin: 0px auto;
 }
 .scrol_inner {
@@ -98,8 +97,9 @@ body {
 }
 .scrol_inner h1 {
 	margin-bottom: 70px;
-	font-size: 36px;
-	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 58px;
+	font-family: 'Franklin Gothic Medium','Arial Unicode MS','Arial',sans-serif;
 	font-weight: lighter;
 }
 .desktop {
@@ -112,41 +112,49 @@ body {
 	width: 65%;
 	margin: 90px auto 0px;
 }
-.scrol_inner ul {
-	width: 100%;
-	padding: 0px 0px;
-	margin-top: 60px;
-	list-style: none;
-}
-.scrol_inner ul li {
-	width: 100%;
-	margin: 10px auto 45px;
-	text-align: center;
-}
-.scrol_inner ul li h2 {
+.scrol_inner h2 {
 	width: 65%;
-	margin: 0px auto;
+	margin: 60px auto 0px;
 	font-size: 22px;
 	text-align: left;
 }
-.scrol_inner ul li p {
-	display: block;
+.scrol_inner dl {
 	width: 65%;
-	margin: 15px auto 15px;
-	font-size: 17px;
+	margin: 10px auto 45px;
+	text-align: center;
+}
+.scrol_inner dl dt {
+	display: block;
+	width: 100%;
+	margin: 20px 0px 5px;
+	font-size: 18px;
 	font-family: YuGothic,'Yu Gothic',sans-serif;
 	text-align: left;
 	line-height: 1.5em;
 }
-.scrol_inner ul li .page-detail {
+.scrol_inner dl dd {
 	display: block;
-	width: 65%;
+	width: 100%;
+	font-size: 15px;
+	font-family: YuGothic,'Yu Gothic',sans-serif;
+	text-align: left;
+	line-height: 1.5em;
+}
+.scrol_inner dl dd .page-detail {
+	display: block;
+	width: 100%;
 	font-size: 17px;
 	font-family: YuGothic,'Yu Gothic',sans-serif;
 }
-.scrol_inner ul li a {
+.scrol_inner dl p {
+	display: block;
+	width: 100%; 
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: left;
+}
+.scrol_inner dl p a {
 	display: inline-block;
-	float: left;
 	font-size: 15px;
 	text-decoration: none;
 }
@@ -253,8 +261,8 @@ body {
 	}
 	.scrol_inner h1 {
 		margin-bottom: 70px;
-		font-size: 36px;
-		font-family: 'Lato', sans-serif;
+		font-size: 40px;
+		font-family: 'Franklin Gothic Medium','Arial Unicode MS','Arial',sans-serif;
 	}
 	.desktop {
 		display: block;
@@ -266,43 +274,40 @@ body {
 		width: 90%;
 		margin: 90px auto 0px;
 	}
-	.scrol_inner ul {
-		width: 100%;
-		padding: 0px 0px;
-		margin-top: 60px;
-		list-style: none;
-	}
-	.scrol_inner ul li {
-		width: 100%;
-		margin: 10px auto 45px;
+	.scrol_inner dl {
+		width: 90%;
+		margin: 10px auto 0px;
 		text-align: center;
 	}
-	.scrol_inner ul li h2 {
+	.scrol_inner h2 {
 		width: 90%;
-		margin: 0px auto;
+		margin: 80px auto 0px;
 		font-size: 20px;
 		text-align: left;
 	}
-	.scrol_inner ul li p {
+	.scrol_inner dl dt {
 		display: block;
-		width: 90%;
-		margin: 15px auto 15px;
-		font-size: 12px;
+		width: 100%;
+		margin: 20px 0px 0px;
+		font-size: 17px;
 		font-family: YuGothic,'Yu Gothic',sans-serif;
 		text-align: left;
 		line-height: 1.5em;
 	}
-	.scrol_inner ul li .page-detail {
+	.scrol_inner dl dd {
 		display: block;
-		width: 90%;
-		font-size: 12px;
+		width: 100%;
+		margin-top: 5px;
+		font-size: 15px;
 		font-family: YuGothic,'Yu Gothic',sans-serif;
+		text-align: left;
+		line-height: 1.5em;
 	}
-	.scrol_inner ul li .page-detail .css-br::after {
+	.scrol_inner dl dd .css-br::before {
 	  content: "\A" ;
 	  white-space: pre;
 	}
-	.scrol_inner ul li a {
+	.scrol_inner dl p a {
 		display: inline-block;
 		width: 90%;
 		float: left;
