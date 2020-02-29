@@ -406,7 +406,7 @@ body {
 	margin: 0px 0px 60px;
 	color: #fff;
 	font-size: 58px;
-	ffont-family: 'Franklin Gothic Medium','Arial Unicode MS','Arial',sans-serif;
+	font-family: 'Franklin Gothic Medium','Arial Unicode MS','Arial',sans-serif;
 	text-align: center;
 }
 #profile-container .container-left  {
@@ -854,7 +854,7 @@ body {
 		margin: 0px 0px 60px;
 		color: #fff;
 		font-size: 58px;
-		ffont-family: 'Franklin Gothic Medium','Arial Unicode MS','Arial',sans-serif;
+		font-family: 'Franklin Gothic Medium','Arial Unicode MS','Arial',sans-serif;
 		text-align: center;
 	}
 	#profile-container .container-left  {
