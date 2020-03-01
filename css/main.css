@@ -127,7 +127,7 @@ body {
 	font-family: 'Roboto';
 	text-align: center;
 }
-.container01 {
+.container-top {
 	position: absolute;
 	top: 45%;
 	right: 5%;
@@ -140,12 +140,12 @@ body {
 	z-index: 1;
 }
 
-.container01 .box {
+.container-top .box {
 	width: 38vmax;
 	height: 38vmax;
 	position: relative;
 }
-.container01 .box::before {
+.container-top .box::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -156,14 +156,14 @@ body {
 	transform: scale(1.42);
 }
 
-.container01 .box .spin-container {
+.container-top .box .spin-container {
 	position: relative;
   	width: 100%;
   	height: 100%;
   	animation: spin 12s linear infinite;
 }
 
-.container01 .box .spin-container .shape {
+.container-top .box .spin-container .shape {
   	position: absolute;
   	width: 100%;
   	height: 100%;
@@ -174,7 +174,7 @@ body {
   	z-index: 5;
 }
 
-.container01 .box .spin-container .shape .bd {
+.container-top .box .spin-container .shape .bd {
 	display: flex;
 	position: absolute;
 	left: -21%;
@@ -182,7 +182,7 @@ body {
 	width: 142%;
 	height: 142%;
 	background: url(../img/mikiya-top-img.JPG);
-	background-size: 90%;
+	background-size: 100%;
 	background-position: center center;
 	color: #003;
 	font-size: 5vw;
@@ -195,7 +195,7 @@ body {
 	opacity: 1;
 	z-index: 2;
 }
-.container02 {
+.container-back {
 	position: absolute;
 	top: 45%;
 	right: 5%;
@@ -208,12 +208,12 @@ body {
 	z-index: 0;
 }
 
-.container02 .box {
+.container-back .box {
 	width: 40vmax;
 	height: 39vmax;
 	position: relative;
 }
-.container02 .box::before {
+.container-back .box::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -224,14 +224,14 @@ body {
 	transform: scale(1.42);
 }
 
-.container02 .box .spin-container {
+.container-back .box .spin-container {
 	position: relative;
   	width: 100%;
   	height: 100%;
   	animation: pin 12s linear infinite;
 }
 
-.container02 .box .spin-container .shape {
+.container-back .box .spin-container .shape {
   	position: absolute;
   	width: 100%;
   	height: 100%;
@@ -242,7 +242,7 @@ body {
   	z-index: 5;
 }
 
-.container02 .box .spin-container .shape .bd {
+.container-back .box .spin-container .shape .bd {
 	display: flex;
 	position: absolute;
 	left: -21%;
@@ -574,7 +574,7 @@ body {
 		font-family: 'Roboto';
 		text-align: center;
 	}
-	.container01 {
+	.container-top {
 		position: absolute;
 		top: 72%;
 		right: 0;
@@ -587,12 +587,12 @@ body {
 		z-index: 1;
 	}
 
-	.container01 .box {
+	.container-top .box {
 		width: 38vmax;
 		height: 38vmax;
 		position: relative;
 	}
-	.container01 .box::before {
+	.container-top .box::before {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -603,14 +603,14 @@ body {
 		transform: scale(1.42);
 	}
 
-	.container01 .box .spin-container {
+	.container-top .box .spin-container {
 		position: relative;
 	  	width: 100%;
 	  	height: 100%;
 	  	animation: spin 12s linear infinite;
 	}
 
-	.container01 .box .spin-container .shape {
+	.container-top .box .spin-container .shape {
 	  	position: absolute;
 	  	width: 100%;
 	  	height: 100%;
@@ -621,7 +621,7 @@ body {
 	  	z-index: 5;
 	}
 
-	.container01 .box .spin-container .shape .bd {
+	.container-top .box .spin-container .shape .bd {
 		display: flex;
 		position: absolute;
 		left: -21%;
@@ -629,7 +629,7 @@ body {
 		width: 142%;
 		height: 142%;
 		background: url(../img/mikiya-top-img.JPG);
-		background-size: 90%;
+		background-size: 100%;
 		background-position: center center;
 		color: #003;
 		font-size: 5vw;
@@ -642,7 +642,7 @@ body {
 		opacity: 1;
 		z-index: 2;
 	}
-	.container02 {
+	.container-back {
 		position: absolute;
 		top: 72%;
 		right: 0;
@@ -655,12 +655,12 @@ body {
 		z-index: 0;
 	}
 
-	.container02 .box {
+	.container-back .box {
 		width: 40vmax;
 		height: 39vmax;
 		position: relative;
 	}
-	.container02 .box::before {
+	.container-back .box::before {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -671,14 +671,14 @@ body {
 		transform: scale(1.42);
 	}
 
-	.container02 .box .spin-container {
+	.container-back .box .spin-container {
 		position: relative;
 	  	width: 100%;
 	  	height: 100%;
 	  	animation: pin 12s linear infinite;
 	}
 
-	.container02 .box .spin-container .shape {
+	.container-back .box .spin-container .shape {
 	  	position: absolute;
 	  	width: 100%;
 	  	height: 100%;
@@ -689,7 +689,7 @@ body {
 	  	z-index: 5;
 	}
 
-	.container02 .box .spin-container .shape .bd {
+	.container-back .box .spin-container .shape .bd {
 		display: flex;
 		position: absolute;
 		left: -21%;
