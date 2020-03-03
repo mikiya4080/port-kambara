@@ -328,7 +328,7 @@ body {
 	transform: scale(1.1);
 	transition-delay: 0.3s;
 }
-#works-container ul li h3 {
+#works-container ul li .detail-title {
 	margin-top: 16px;
 	color: #7d7c7c;
 	font-size: 12px;
@@ -364,7 +364,7 @@ body {
 	background-color: #fff;
 	overflow: hidden;
 }
-#skill-container ul li h3 {
+#skill-container ul li .skill-title {
 	position: absolute;
 	color: #000;
   	top: 50%;
@@ -374,7 +374,7 @@ body {
   	transform: translateX(-50%) translateY(-50%);
   	overflow: hidden;
 }
-#skill-container ul li:hover h3 {
+#skill-container ul li:hover .skill-title {
 	opacity: 0;
 }
 #skill-container ul li  .mask-container {
@@ -776,7 +776,7 @@ body {
 		transform: scale(1.1);
 		transition-delay: 0.3s;
 	}
-	#works-container ul li h3 {
+	#works-container ul li .detail-title {
 		margin-top: 15px;
 		color: #7d7c7c;
 		font-size: 12px;
@@ -812,7 +812,7 @@ body {
 		background-color: #fff;
 		overflow: hidden;
 	}
-	#skill-container ul li h3 {
+	#skill-container ul li .skill-title {
 		position: absolute;
 		color: #000;
 	  	top: 50%;
@@ -822,7 +822,7 @@ body {
 	  	transform: translateX(-50%) translateY(-50%);
 	  	overflow: hidden;
 	}
-	#skill-container ul li:hover h3 {
+	#skill-container ul li:hover .skill-title {
 		opacity: 1;
 	}
 	#skill-container ul li  .mask-container {
