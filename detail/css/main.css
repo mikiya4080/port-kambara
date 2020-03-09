@@ -309,8 +309,9 @@ body {
 	}
 	.scrol_inner dl p a {
 		display: inline-block;
-		width: 90%;
 		float: left;
+		width: 90%;
+		color: #fff;
 		font-size: 10px;
 		text-decoration: none;
 	}
