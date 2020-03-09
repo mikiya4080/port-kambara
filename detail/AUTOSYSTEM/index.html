@@ -9,42 +9,40 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<div id="header">
-			<nav>
-				<div id="nav-drawer">
-   					<input id="nav-input" type="checkbox" class="nav-unshown">
-      				<label id="nav-open" for="nav-input"><span></span></label>
-      				<label class="nav-unshown" id="nav-close" for="nav-input"></label>
- 		    		<div id="nav-content">
- 		    			<p><a href="../../index.html#works-container">Works</a></p>
- 		    			<p><a href="../../index.html#skill-container">Skill</a></p>
- 		    			<p><a href="../../index.html#profile-container">Profile</a></p>
- 		    		</div>
-  				</div>
-			</nav>	
-		</div>
-	</header>
-	<main>
-		<div class="main">
-			<div class="scrol">
-				<div class="scrol_inner">
-					<h1>Works</h1>
-					<p><img src="../img/desktop_AUTOSYSTEMpng.png" class="desktop"></p>
-					<h2>AUTOSYSTEM</h2>
-					<dl>
-						<dd>HTML5/CSS3/PHP/Python</dd>
-						<dt><制作テーマ></dt><dd>Webアプリケーション</dd>
-						<dt><制作期間></dt><dd>2カ月</dd>
-						<dt><システム></dt><dd>興味のあるキーワードを入力するとTwitterで<span class="css-br">そのキーワードに関して<br></span>つぶやいているユーザーに対して自動的に<span class="css-br">いいね・リツイート・フォローを</span><span class="css-br">行うwebアプリケーション</span></dd>
-					</dl>
+	<header id="header">
+		<nav>
+			<div id="nav-drawer">
+					<input id="nav-input" type="checkbox" class="nav-unshown">
+  				<label id="nav-open" for="nav-input"><span></span></label>
+  				<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+		    		<div id="nav-content">
+		    			<p><a href="../../index.html#works-container">Works</a></p>
+		    			<p><a href="../../index.html#skill-container">Skill</a></p>
+		    			<p><a href="../../index.html#profile-container">Profile</a></p>
+		    		</div>
 				</div>
+		</nav>	
+	</header>
+	<main class="main">
+		<div class="scrol">
+			<div class="scrol_inner">
+				<h1>Works</h1>
+				<p><img src="../img/desktop_AUTOSYSTEMpng.png" class="desktop"></p>
+				<h2>AUTOSYSTEM</h2>
+				<dl>
+					<dd>HTML5/CSS3/PHP/Python</dd>
+					<dt><制作テーマ></dt><dd>Webアプリケーション</dd>
+					<dt><制作期間></dt><dd>2カ月</dd>
+					<dt><対象ユーザー></dt><dd>SNS(Twitter)を利用して知名度を上げたい会社/同じ趣味の人と繋がりたい人</dd>
+					<dd>(例)(美容系の会社) Twitterを利用して自社の知名度を上げたい<br>→しかし、美容に興味がある人を探してフォローするのは手間がかかる...<br>→そこで、このシステムを導入すると時間も手間もかからず他の仕事もできる！！！</dd>
+					<dt><システム></dt><dd>興味・関心のあるキーワードを入力するとTwitterで<span class="css-br">そのキーワードに関して<br></span>つぶやいているユーザーに対して自動的に<span class="css-br">いいね・リツイート・フォローを</span><span class="css-br">行うwebアプリケーション</span></dd>
+					<dt><システム設計></dt><dd>PHPで入力フォームを設計し入力されたキーワードをローカルのDBに挿入する。<br>Pythonを用いてDBに格納されているキーワードとTwtter APIを用いていいね・リツイート・フォローの自動化する。</dd>
+				</dl>
 			</div>
-		</div>
-		<footer id="footer">
-			<p>Copyright ©2019 KANBARA MIKIYA All Rights Reserved.</p>
-		</footer>		
+		</div>		
 	</main>
+	<footer id="footer">
+			<p>Copyright ©2019 KANBARA MIKIYA All Rights Reserved.</p>
+	</footer>
 </body>
-
 </html>
