@@ -181,9 +181,9 @@
 }
 .detail-inner .more-button {
 	display: block;
-	width: 30%;
+	width: 193px;
 	margin: 100px auto 0px;
-	border: solid 1px #444;
+	border: solid 1.3px #444;
 	color: #000;
 	font-size: 20px;
 	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
@@ -213,6 +213,7 @@
 }
 #Menu-container .Menu-container-inner {
 	width: 100%;
+	height: 601px;
 }
 .anime-right {
 	position: relative;
@@ -244,10 +245,10 @@
 }
 #Menu-container .more-button {
 	display: block;
-	width: 10%;
-	margin: 680px auto 0px;
+	width: 193px;
+	margin: 100px auto 0px;
 	color: #000;
-	border: solid 1px #444;
+	border: solid 1.3px #444;
 	font-size: 20px;
 	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 	text-align: center;
@@ -315,10 +316,10 @@
 }
 #Access-container .Access-container-inner .more-button {
 	display: block;
-	width: 25%;
-	margin: 80px auto 0px;
+	width: 193px;
+	margin: 100px auto 0px;
 	color: #000;
-	border: solid 1px #444;
+	border: solid 1.3px #444;
 	font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',YuGothic,'Yu Gothic',sans-serif;
 	font-size: 20px;
 	text-align: center;
@@ -469,20 +470,20 @@
 	}
 	#Concept-container {
 		width: 100%;
-		height: 602px;
+		height: 587px;
 		margin-top: 80px;
 	}
 	.anime {
 		float: none;
 		width: 100%;
 		height: 300px;
+		margin-top: 70px;
 		padding: 0px 0px;
 	}
 	#Concept-container img{
 		float: none;
 		width: 100%;
-		height: 300px;
-		margin-top: 14px;
+		height: 287px;
 	}
 	.Concept-img {
 		display: block;
@@ -490,13 +491,13 @@
 	}
 	.detailBlock {
 		width: 100%;
-		height: 300px;
+		height: 228px;
 	}
 	.detail-inner {
 		position: static;
 		float: none;
 		width: 100%;
-		height: 300px;
+		height: 228px;
 	}
 	.detail-inner h2{
 		margin-bottom: 30px;
@@ -538,10 +539,13 @@
 	}
 	#Menu-container .Menu-container-inner {
 		width: 100%;
+		height: 241px;
+		margin-top: 50px;
 	}
 	.anime-right {
 		position: relative;
 		width: 100%;
+		height: 241px;
 		margin: 0px auto;
 		padding: 0px 0px;
 		opacity: 0;
@@ -550,13 +554,13 @@
 		position: absolute;
 		width: 100%;
 		height: 241px;
-		top: 129px;
+		top: 0px;
 		right: 0px;
 	}
 	#Menu-container .more-button {
 		display: block;
 		width: 25%;
-		margin: 20px auto 0px;
+		margin: 40px auto 0px;
 		border: solid 1px #444;
 		color: #000;
 		font-size: 11px;
